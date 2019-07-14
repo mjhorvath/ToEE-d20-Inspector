@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+	<HEAD>
+		<meta http-equiv="MSThemeCompatible" content="Yes" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script type="text/javascript">
+			window.resizeTo(800, 800)
+		</script>
+		<link rel="icon" href="library/toee_d20_inspector.ico" type="image/x-icon" />
+		<title>ToEE d20 Inspector (version 0.3.0)</title>
+		<hta:application
+			id = "oapp"
+			applicationname = "ToEE d20 Inspector"
+			border = "dialog"
+			caption = "yes"
+			icon = "library/toee_d20_inspector.ico"
+			showintaskbar = "yes"
+			singleinstance = "no"
+			windowstate = "normal"
+			scroll = "no"
+			scrollflat = "yes"
+			version = "0.3.0"
+			innerborder = "no"
+			selection = "yes"
+			sysmenu = "yes"
+			maximizebutton = "no"
+			minimizebutton = "yes"
+			navigable = "yes"
+			contextmenu = "yes"
+			borderstyle = "thin"
+		/>
+		<script type="text/javascript" src="library/do_stuff.js"></script>
+		<script type="text/javascript" src="library/calculations.js"></script>
+		<script type="text/javascript" src="library/table_protos_fields.js"></script>
+		<script type="text/javascript" src="library/table_special_abilities.js"></script>
+		<script type="text/javascript" src="library/table_ability_scores.js"></script>
+		<script type="text/javascript" src="library/table_bonus_power_points.js"></script>
+		<script type="text/javascript" src="library/table_bonus_spells.js"></script>
+		<script type="text/javascript" src="library/table_classes_misc.js"></script>
+		<script type="text/javascript" src="library/table_classes_normal.js"></script>
+		<script type="text/javascript" src="library/table_classes_epic.js"></script>
+		<script type="text/javascript" src="library/table_creatures.js"></script>
+		<script type="text/javascript" src="library/table_deities.js"></script>
+		<script type="text/javascript" src="library/table_domains.js"></script>
+		<script type="text/javascript" src="library/table_feats.js"></script>
+		<script type="text/javascript" src="library/table_noclass.js"></script>
+		<script type="text/javascript" src="library/table_races.js"></script>
+		<script type="text/javascript" src="library/table_sizes.js"></script>
+		<script type="text/javascript" src="library/table_skills.js"></script>
+		<style type="text/css">
+		<!--
+			body			{background:#eee;color:#000;font:8pt arial;width:100%;height:100%;margin:0px;}
+			tr			{}
+			td.datacell		{vertical-align:top;text-align:left;}
+			th.datacell		{background:#000;color:#eee;}
+			table,h4		{}
+			table			{table-layout:fixed;}
+			h4			{text-align:center;margin:0.5em;}
+			td.blank		{}
+			th.blank		{width:14em;}
+			img			{vertical-align:middle;}
+			br.cboth		{clear:both;}
+			#img_lft		{position:absolute;left:0.5em;}
+			#img_rgt		{position:absolute;right:0.5em;}
+			#proto_box		{display:block;}
+			#raw_box		{display:none;}
+			#outer_box_1		{width:100%;height:150px;overflow:hidden;background:#eee;position:absolute;top:0px;text-align:center;}
+			#outer_box_2		{width:100%;height:400px;overflow:scroll;background:#eee;position:absolute;bottom:0px;text-align:center;}
+			#data_table		{}
+			.green			{background:#aca;}
+			.red			{background:#caa;}
+			.gry			{background:#aaa;}
+			#controls		{margin:0.5em;overflow:hidden;width:60em;}
+			.blank			{border:none;vertical-align:middle;text-align:left;height:2em;}
+			.datacell		{border:solid 1px #000;height:2em;width:8em;overflow:hidden;}
+			.divcell		{width:100%;height:100%;overflow:hidden;}
+			.summary		{border:none;}
+		-->
+		</style>
+	</head>
+	<body onload="init()">
+		<div id="outer_box_1">
+			<h4><img src="library/light_red_small.png" id="img_lft" width="32" height="32" /> ToEE d20 Inspector (version 0.3.0) <img src="library/light_blue_small.png" id="img_rgt" width="32" height="32" /></h4>
+			<br class="cboth" />
+			<table id="controls">
+				<tbody>
+					<tr>
+						<th class="blank">Path to &quot;protos.tab&quot;:</th>
+						<td class="blank"><input type="text" value="To do." size="46" />&nbsp;<input type="button" value="Load" onclick="alert('To do.')" />&nbsp;<input type="button" value="Overwrite" onclick="alert('To do.')" /></td>
+					</tr>
+					<tr>
+						<th class="blank">Path to &quot;description.mres&quot;:</th>
+						<td class="blank"><input type="text" value="To do." size="46" /></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="outer_box_2">
+			<table id="data_table" frame="box" rules="all" border="0" cellpadding="2" cellspacing="2">
+				<tbody id="front_table" style="display:none;"></tbody>
+			</table>
+			<h2 id="load_text" style="display:block;">Loading...</h2>
+		</div>
+	</body>
+</html>
