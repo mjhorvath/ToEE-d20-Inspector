@@ -6,4 +6,4 @@ This was intended to become a tool to automatically level up or level down enemi
 
 The program utlilizes the Windows Scripting Host. It's basically just an HTML document with some JavaScript and some basic File I/O, such as the ability to read and write text files. It only works on Windows.
 
-The "program" has an ".hta" extension. Just click on it like you would an HTML document or batch file. I have received some reports that virus/anti-malware scanners do not like this format. I should really reprogram it in some other language.
+The "program" has an ".hta" extension. Just click on it like you would an HTML document or batch file. I have received some reports that virus/anti-malware software do not like this format, and will complain. I should really reprogram it in some other language.
