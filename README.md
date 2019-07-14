@@ -1,6 +1,6 @@
 # ToEE d20 Inspector
 
-This was intended to become a tool to automatically level up or level down enemies in the video game _The Temple of Elemental Evil_ by Troika Games. I got pretty far into development, but quit when I encountered a roadblock WRT "backtracking" through a  character's upgrade history and determining the correct number of skill points based on the character's ability scores. Since a character can gain points in intelligence, the number of skill points he or she receives upon level up can also change. Since I did not have a reliable source of knowlegable testers to draw upon, "backtracking" in this manner was the only way for me to know I got the math right. Sadly, I never was able to figure a way out of this conundrum.
+This was intended to become a tool to automatically level up or level down enemies in the video game _The Temple of Elemental Evil_ by Troika Games. I got pretty far into development, but quit when I encountered a roadblock WRT "backtracking" through a  character's upgrade history and determining the correct number of skill points based on the character's ability scores. Since a character can gain points in intelligence over time, the number of skill points he or she receives upon level up can also change. Since I did not have a reliable source of knowlegable testers to draw upon, "backtracking" in this manner was the only way for me to know I got the math right. Sadly, I never was able to figure a way out of this conundrum.
 
 # Running the program
 
