@@ -8,6 +8,6 @@ Thus the impass.
 
 # Running the program
 
-The program utlilizes the Windows Scripting Host. It's basically just an HTML document with some JavaScript and some basic File I/O, such as the ability to read and write text files. It only works on Windows.
+The program utlilizes the Windows Scripting Host. It's basically just an HTML document with some JavaScript and some basic file I/O, such as the ability to read and write text files. It only works on Windows.
 
-The "program" has an ".hta" extension. Just click on it like you would an HTML document or batch file. I have received some reports that virus/anti-malware software do not like this format, and will complain. I should really reprogram the tool in some other language.
+The program has an ".hta" extension. Just click on it like you would any HTML document or batch file. I have received some reports that virus/anti-malware software do not like this type of program, and will complain. I should really re-program the tool in some other language.
