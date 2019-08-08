@@ -10,7 +10,7 @@ If PROTOS.TAB contained a record of major character development events, such as 
 
 # Running the program
 
-This program only works in Windows. It is an HTML Application that utlilizes the Windows Scripting Host. It's basically just an HTML document with some JavaScript and some basic file I/O, such as the ability to read and write text files. Just click on it like you would an executable. I have received reports that some virus/anti-malware software do not like this type of software, and will complain. I should really re-program the tool in some other language.
+This program only works in Windows. It is an HTML Application that utlilizes the Windows Scripting Host. It's basically just an HTML document with some JavaScript and some basic file I/O, such as the ability to read and write text files. Just click on the file with the "hta" extension like you would an executable. I have received reports that some virus/anti-malware software do not like this type of software, and will complain. I should really re-program the tool in some other language.
 
 # Spreadsheet
 
