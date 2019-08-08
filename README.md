@@ -4,9 +4,9 @@ Several years ago I set out to create a tool to automatically level up or level 
 
 The problem had to do with determining the correct number of skill points a character should have. Since, according to d20 RAW, a character can gain points in INT (intelligence) over time, and the number of skill points a character receives upon level-up is determined by his or her INT score, it follows that the number of skill points a character receives upon level-up can _also_ change over time. I was unable to determine with any degree of certainty how many skill points an already-formed character was supposed to have without also knowing _when_ the character leveled up and gained points in INT, if any. And the missing information about when a character leveled up and gained points in INT is listed nowhere in PROTOS.TAB! Hence the impass.
 
-See more info about it on Stack Exchange, [here](https://rpg.stackexchange.com/questions/153093/how-do-i-know-whether-a-9th-level-character-has-the-correct-number-of-skill-poin).
+See more info about the issue on Stack Exchange, [here](https://rpg.stackexchange.com/questions/153093/how-do-i-know-whether-a-9th-level-character-has-the-correct-number-of-skill-poin).
 
-If PROTOS.TAB contained a record of major character development events, such as when a character experienced a rise in INT or when a decision to multi-class was made, then I think my tool would work.
+If PROTOS.TAB contained a record of major character development events, such as when a character experienced a rise in INT or when a decision to multi-class was made, then I think my tool could work.
 
 # Running the program
 
