@@ -6,7 +6,7 @@ The problem had to do with determining the correct number of skill points a char
 
 See more info about it on Stack Exchange, [here](https://rpg.stackexchange.com/questions/153093/how-do-i-know-whether-a-9th-level-character-has-the-correct-number-of-skill-poin).
 
-If PROTOS.TAB contained a record of major character development events, such as when the character experienced a rise in INT or when a decision to multi-class was made, then I think my tool would work.
+If PROTOS.TAB contained a record of major character development events, such as when a character experienced a rise in INT or when a decision to multi-class was made, then I think my tool would work.
 
 # Running the program
 
